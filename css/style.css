@@ -1,0 +1,35 @@
+/* Theme */
+:root {
+  --background-color: #222225;
+  --page-width: 64em;
+  --font-color: #e8e9ed;
+  --invert-font-color: #222225;
+  --primary-color: #62c4ff;
+  --secondary-color: #a3abba;
+  --tertiary-color: #a3abba;
+  --error-color: #ff3c74;
+  --progress-bar-background: #3f3f44;
+  --progress-bar-fill: #62c4ff;
+  --code-bg-color: #3f3f44;
+}
+
+.avatar {
+  height: 2.25rem;
+  border-radius: 5px;
+}
+
+.hero {
+  max-height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.terminal-prompt::before {
+  content: "";
+}
