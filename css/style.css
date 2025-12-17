@@ -1,5 +1,7 @@
 /* Theme */
 :root {
+  --font-stack: "JetBrains Mono", sans-serif;
+  --mono-font-stack: "JetBrains Mono", monospace;
   --background-color: #222225;
   --page-width: 64em;
   --font-color: #e8e9ed;
